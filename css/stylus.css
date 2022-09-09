@@ -109,6 +109,58 @@ html {
     margin-top: 2rem;
  
 }
+.descricao{
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: var(--VeryLightGray);
+}
+.descricao__titulo{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--darkBlue);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.descricao__subTitulo{
+    line-height: 1.5;
+  
+    letter-spacing: -1px;
+}
+.card{
+    padding-top: 2rem;
+}
+.card__imagem{
+    display: inline-block;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 1.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.online{
+    background-image: url(../images/icon-online.svg);
+}
+.budgeting{
+    background-image: url(../images/icon-budgeting.svg);
+}
+.onboard{
+    background-image: url(../images/icon-onboarding.svg);
+}
+.api{
+    background-image: url(../images/icon-api.svg);
+}
+.card__titulo{
+    color: var(--darkBlue);
+    font-weight: 400;
+    font-size: 1.33rem;
+    margin-bottom: 1rem;
+}
+.card__paragrafo{
+    line-height: 1.5;
+    letter-spacing: -1px;
+}
 
 .attribution {
     font-size: 11px;
