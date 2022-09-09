@@ -96,9 +96,10 @@ html {
 
     letter-spacing: -1px;
     line-height: 1.5;
-
+    margin-bottom: 2rem;
 }
-.banner__botao{
+
+.botao{
     
     border: none;
     font-size: 18px;
@@ -106,7 +107,7 @@ html {
     padding: 1rem 2rem;
     color: var(--White);
     background-image: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
-    margin-top: 2rem;
+
  
 }
 .descricao{
@@ -219,6 +220,64 @@ html {
 .currency{
     background-image: url(../images/image-currency.jpg);
 }
+footer{
+    background-color: var(--darkBlue);
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.lista__links{
+    text-align: center;
+}
+.item{
+    margin-bottom: 1rem;
+}
+.item:last-child{
+    margin-bottom: 0;
+}
+.link{
+
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 400;
+}
+.redes-sociais__icon{
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.facebook{
+    background-image: url(../images/icon-facebook.svg);
+}
+.twitter{
+    background-image: url(../images/icon-twitter.svg);
+}
+.pinterest{
+    background-image: url(../images/icon-pinterest.svg);
+}
+.instagram{
+    background-image: url(../images/icon-instagram.svg);
+}
+.youtube{
+    background-image: url(../images/icon-youtube.svg);
+}
+.footer__botao{
+    margin: 0;
+}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
