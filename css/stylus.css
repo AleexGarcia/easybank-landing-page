@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --darkBlue: hsl(233, 26%, 24%);
+    --limeGreen: hsl(136, 65%, 51%);
+    --brightCyan: hsl(192, 70%, 51%);
+    --grayishBlue: hsl(233, 8%, 62%);
+    --LightGrayishBlue: hsl(220, 16%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --font-family: 'Public Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body,
+html {
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--grayishBlue);
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+.header__menu-icon{
+  height: 1.5rem;
+  width: 1.5rem;  
+  background-image: url(../images/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.header__menu-icon.active{
+    background-image: url(../images/icon-close.svg);
+    height: 1rem;
+    width: 1rem;
+}
+.header__nav{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    left: 0;
+    top: 4rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.363);
+    
+}
+.header__lista{
+   margin: 1rem auto 0 auto;
+    padding: 2rem 0;
+    width: 90%;
+    background-color: white;
+    border-radius: 8px;
+}
+.header__item{
+    margin-bottom: 1rem;
+}
+.header__item:last-child{
+    margin-bottom: 0;
+}
+.header__link{
+    text-decoration: none;
+    color: var(--darkBlue);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
