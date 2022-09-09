@@ -227,6 +227,10 @@ html {
     margin-bottom: 1rem;
 
 }
+.lastArticles__titulo-card:hover{
+    cursor: pointer;
+    color: var(--limeGreen);
+}
 .lastArticles__img{
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,6 +279,10 @@ footer{
     text-decoration: none;
     color: var(--White);
     font-weight: 400;
+}
+.link:hover{
+    cursor: pointer;
+    color: var(--limeGreen);
 }
 
 .facebook{
@@ -357,6 +365,11 @@ footer{
     padding: 12px 24px;
     font-size: 16px;
    }
+   .botao:hover{
+    
+    opacity: .7;
+    cursor: pointer;
+   }
    .header{
     height:5rem;
     background-color: var(--White);
@@ -391,7 +404,16 @@ footer{
     }
     .header__link{
         color: var(--grayishBlue);
+        
     }
+    .header__link:hover{
+        padding-bottom: 32px;
+        border-image: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+        border-bottom-width: 5px;
+        border-style: solid;
+        border-image-slice: 1;
+    }
+   
     .header__item{
         margin-bottom: 0;
     }
@@ -479,11 +501,24 @@ footer{
     .item{
         margin-bottom: 0;
     }
-    .footer__botao{
-        justify-self: flex-end;
+    .botao-box{
         width: 40%;
+        background-color: var(--White);
+        border-radius: 2rem;
+        justify-self: flex-end;
+    }
+    .footer__botao{
+    
+        width: 100%;
     }
     footer p{
         justify-self: flex-end;
+    }
+    .redes-sociais__icon:hover{
+        cursor: pointer;
+    }
+    .redes-sociais__icon:hover path{
+        fill: var(--limeGreen);
+        cursor: pointer;
     }
 }
