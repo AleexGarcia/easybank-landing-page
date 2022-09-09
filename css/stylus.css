@@ -126,10 +126,10 @@ html {
   
     letter-spacing: -1px;
 }
-.card{
+.descricao__card{
     padding-top: 2rem;
 }
-.card__imagem{
+.descricao__imagem{
     display: inline-block;
     border-radius: 50%;
     height: 5rem;
@@ -151,17 +151,74 @@ html {
 .api{
     background-image: url(../images/icon-api.svg);
 }
-.card__titulo{
+.descricao__titulo{
     color: var(--darkBlue);
     font-weight: 400;
     font-size: 1.33rem;
     margin-bottom: 1rem;
 }
-.card__paragrafo{
+.descricao__paragrafo{
     line-height: 1.5;
     letter-spacing: -1px;
 }
+.lastArticles{
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--LightGrayishBlue);
+}
+.lastArticles__titulo{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--darkBlue);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.lastArticles__card{
+   background-color: var(--White);
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 8px;
+}
+.info-container{
+    padding: 1.5rem 1rem 3rem 1rem;
+}
+.lastArticles__autor{
+    display: inline-block;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+.lastArticles__titulo-card{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--darkBlue);
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
 
+}
+.lastArticles__img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+.confetti{
+    background-image: url(../images/image-confetti.jpg);
+}
+.plane{
+    background-image: url(../images/image-plane.jpg);
+}
+.restaurant{
+    background-image: url(../images/image-restaurant.jpg);
+}
+.currency{
+    background-image: url(../images/image-currency.jpg);
+}
 .attribution {
     font-size: 11px;
     text-align: center;
